@@ -1,56 +1,80 @@
-# Tarea 02
-La tarea 02 trata de refrescar los conocimientos adquiridos en la segunda clase.
+# Tarea 03
+La tarea 03 trata de refrescar los conocimientos adquiridos en la tercera clase.
 
 ## Ejercicio 01
 
 ### Descripción
 
-En el repositorio van a encontrar un archivo llamado `numeros_pares.py`. En el archivo está vacío. 
-La idea es que impriman en consola (con la función `print`) los números del 1 al 20 (tip: utilicen el bucle `for` y el condicional `if`).
+En el repositorio van a encontrar un archivo llamado `ejercicio_01.py`. El archivo cuenta con algunas *funciones* (`suma`, `resta`, `multiplicacion` y `division`) sobre los parámetros `a` y `b`. 
 
-Ejemplo de la salida de `numeros_pares`:
+La idea es que completen las demás funciones (módulo, potencia y división entera) de su programa "calculadora", con respecto a los **operadores aritméticos** vistos en clase.
 
-```python
-2
-4
-6
-8
-10
-12
-14
-16
-18
-20
-```
+> **Importante**: Utilicen los siguientes nombres para sus funciones (sino las pruebas les van a fallar) y los parámetros `a` y `b` respectivamente:
+> - `modulo(a, b)`
+> - `potencia(a, b)`
+> - `division_entera(a, b)`
+
+
+### Recordar:
+
+> Para definir una función:
+> Colocamos la palabra `def` seguido de un `espacio`, luego el `nombre de la función` y dentro de los paréntesis `()` escribo los parámetros a recibir (los parámetros pueden ser *n*). Ejemplo:
+> ```python
+> def nombre_de_la_funcion(parametro1, parametro2)
+> ```
 
 ## Ejercicio 02
 
 ### Descripción
 
-Si estuvieras parado en la luna ahora mismo, tu peso sería 16.5% de lo que pesas en la Tierra. Puedes calcularlo multiplicando tu peso en la Tierra por 0,165.
+A Nathan le encanta andar en bicicleta.
 
-Si tu profesor pesa 75 kg y aumentara un kilo de peso cada año durante los próximos 15 años, ¿cuál sería su peso si él visitara la luna cada año durante los próximos 15 años? 
-Escriba un programa usando un bucle `while` que imprima el peso lunar del profesor para cada año. Utilice el archivo `peso_lunar.py`.
+Como Nathan sabe que es importante mantenerse hidratado, bebe 0,5 litros de agua por hora de ciclismo.
 
-Ejemplo de la salida de `peso_lunar`:
+Te dan el tiempo en horas y necesitas devolver el número de litros que beberá Nathan. 
+
+Escriba una función llamada `calcular_litros_por_hora` que reciba el parámetro `tiempo_de_ciclismo` e imprima en consola la cantidad de litros de agua que debe tomar. Los litros de agua pueden tener decimales. Use el archivo llamado `ejercicio_02.py`. 
+
+Por ejemplo:
 
 ```python
-12.375
-24.75
-37.125
-49.5
-61.875
-74.25
-86.625
-99.0
-111.375
-123.75
-136.125
-148.5
-160.875
-173.25
-185.625
+calcular_litros_por_hora(3) # Imprime en consola "1.5"
+calcular_litros_por_hora(6.7) # Imprime en consola "3.35"
+calcular_litros_por_hora(11.8) # Imprime en consola "5.9"
 ```
+
+## Ejercicio 03
+
+### Descripción
+
+Escriba una función llamada `repetir_cadena` que repita la cadena de caracteres exactamente *n* veces. Use el archivo llamado `ejercicio_03.py`. 
+
+Por ejemplo:
+
+```python
+repetir_cadena(3, "I") # Imprime en consola "IIIIII"
+repetir_cadena(5, "Hola") # Imprime en consola "HolaHolaHolaHolaHola"
+```
+
+## Ejercicio 04
+
+### Descripción
+
+Escriba un programa que encuentre la suma de todos los números del 1 hasta `n`. El número `n` siempre será un entero positivo mayor que 0. Llame a su función `suma_del_saltamontes`. Use el archivo llamado `ejercicio_04.py`. 
+
+Por ejemplo:
+- Si quiero sumar hasta `n = 2` sería `1 + 2`:
+
+  ```python
+  suma_del_saltamontes(2) # Imprime en consola "3"
+  ```
+
+- Si quiero sumar hasta `n = 8`, sería `1 + 2 + 3 + 4 + 5 + 6 + 7 + 8`:
+
+  ```python
+  suma_del_saltamontes(8) # Imprime en consola "36"
+  ```
+
 
 # Preguntas frecuentes
 
